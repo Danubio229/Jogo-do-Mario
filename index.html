@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Super Mario Js</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="start-screen" id="startScreen">
+        <h1>Mario Infinite Js</h1>
+        <button class="start-btn" id="startBtn">Jogar</button>
+        <div class="luigi-container">
+            <img src="img/mario.gif" class="img">
+        </div>
+
+    </div>
+
+
+    <div class="music-btn" id="musicBtn">🔊</div>
+
+
+    <audio id="music" src="./SUPER_MARIO_DJ_PABLO_ORDONEZ.mp3" loop></audio>
+    <audio id="jumpSound" src="jump.mp3"></audio>
+    <audio id="deadSound" src="dead.mp3"></audio>
+    
+    <div class="container" id="gameContainer">
+        <img src="img/clouds.png" class="nuvens">
+        <img src="img/mario.gif" class="mario">
+        <img src="img/pipe.png" class="cano">
+
+
+        <div class="hud">
+            Pontos: <span id="score">0</span><br>
+            Recorde: <span id="record">0</span>
+        </div>
+
+
+        <button id="restartBtn">Reiniciar</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
