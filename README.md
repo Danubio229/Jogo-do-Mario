@@ -1,1 +1,1 @@
-! [image alt] (https://github.com/Danubio229/Jogo-do-Mario/blob/a2094256787eb6ce3ef76896d540a1f8c62a0f7b/Captura%20de%20tela%202025-12-19%20131919.png)
+<img width="1919" height="973" alt="Captura de tela 2025-12-19 131919" src="https://github.com/user-attachments/assets/e2579246-d939-4123-abe8-3b1784dcbe68" />
